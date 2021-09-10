@@ -14,7 +14,7 @@ Access_Token_Secret = ''
 
 setup_twitter_oauth(API_key, API_secret_key, Access_Token, Access_Token_Secret) #handshake-function
 
-mytweets = searchTwitter("bitcoin", n=200, lang = "en")
+mytweets = searchTwitter("AI", n=400, lang = "en")
 
 tweet_df = do.call("rbind", lapply(mytweets, as.data.frame))
 
