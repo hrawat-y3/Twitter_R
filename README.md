@@ -12,6 +12,7 @@ Extracting tweets contining 'AI' keyword. Removing stopwords and special charact
 
 # Word Cloud: 
 
+![wordcloud_AI](https://user-images.githubusercontent.com/76147566/133926529-f4054c4e-38bc-4cbe-b8f0-05db590e73d2.png)
 
 
 
