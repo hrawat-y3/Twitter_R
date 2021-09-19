@@ -8,7 +8,7 @@ This is a project to extract tweets using Twitter API on R Studio software. This
 
 # Overview 
 
-Extracting tweets contining 'AI' keyword. Removing stopwords and special characters, to analyse the most appeared keywords present in the tweets. Visualizing the results using wordcloud and bar-charts.
+Extracting tweets contining 'AI' keyword. Data cleaning to remove stopwords and special characters, to analyse the most appeared keywords present in the tweets. Visualizing the results using wordcloud and bar-charts.
 
 # Word Cloud: 
 
