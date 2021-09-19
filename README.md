@@ -14,5 +14,10 @@ Extracting tweets contining 'AI' keyword. Removing stopwords and special charact
 
 ![wordcloud_AI](https://user-images.githubusercontent.com/76147566/133926529-f4054c4e-38bc-4cbe-b8f0-05db590e73d2.png)
 
+# Barchart (top 10)
+
+![Barplot_AI](https://user-images.githubusercontent.com/76147566/133926585-cbeb751a-3f05-49e6-8d87-b6236ea49787.png)
+
+
 
 
