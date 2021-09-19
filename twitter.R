@@ -22,7 +22,7 @@ tweet_df$text = sapply(tweet_df$text, function(row) iconv(row, "latin1", "ASCII"
 
 tweets = tweet_df$text
 
-corpus = Corpus(VectorSource(tweets))  # inside tm pkg
+corpus = Corpus(VectorSource(tweets))  
 
 corpus = tm_map(corpus, content_transformer(tolower))
 
@@ -38,7 +38,7 @@ corpus = tm_map(corpus, removeWords, c("rt",'\\n\\"','me\\",'))
 
 corpus = Corpus(VectorSource(corpus))
 
-tdm = TermDocumentMatrix(corpus) #from tm
+tdm = TermDocumentMatrix(corpus) 
 
 tdm = as.matrix(tdm)
 
